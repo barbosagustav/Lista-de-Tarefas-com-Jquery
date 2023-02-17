@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,17 +9,18 @@
 </head>
 <body>
 
-    <h1>Lista de Tarefas</h1>
-    <form>
-        <input type="text" placeholder="Nome da Tarefa">
-        <input type="submit" value="Cadastrar">
-    </form>
+    <div id="conteiner">
+        <h1>Lista de Tarefas</h1>
+        <form>
+            <input id="endereco-tarefa" type="text" placeholder="Nome da Tarefa">
+            <input type="submit" value="Cadastrar">
+        </form>
 
-    <div id="list">
-        <ul>
-            <li></li>
-        </ul>
-    </div>    
+        <div id="tarefasadd">
+            <ul id="item-list">
+            </ul>
+        </div>
+    </div>
 
 
     <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>

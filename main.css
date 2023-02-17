@@ -1,0 +1,25 @@
+* {
+    margin: 0px;
+    padding: 0px;}
+
+
+body {
+    display: flex;
+    justify-content: center;}
+
+
+#conteiner {
+    margin-top: 100px;
+}
+
+#conteiner h1 {
+    margin-bottom: 20px;
+}
+
+.line-through {text-decoration: line-through;}
+
+
+ul li {
+    margin: 10px 0px 0px 0px;
+    list-style-type: none;
+}
